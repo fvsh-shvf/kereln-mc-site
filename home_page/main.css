@@ -176,6 +176,35 @@ img {
       transform: scale(1.2);
     }
 
+#ad {
+  position: fixed; /* Закрепляем относительно окна браузера */
+  bottom: 0;       /* Прижимаем к нижнему краю */
+  left: 50%;       /* Центрируем по горизонтали */
+  transform: translateX(-50%); /* Смещаем назад на 50% ширины блока */
+  height: 100px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent; /* Можно добавить фон если нужно */
+  z-index: 1000; /* Чтобы баннер был поверх других элементов */
+}
+
+#adtxt {
+    height: 120px;
+    width: 400px;
+    font-family: Font;
+    z-index: 0;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 85%;
+    left: 24%;
+    font-size: 15px;
+    user-select: none;
+}
+
+
 /*Только для мобильных устройств */
 @media screen and (max-width: 768px) {
   body {
@@ -257,4 +286,33 @@ img {
     font-size: 14px;
     color: rgb(180, 180, 180);
   }
+
+  #adtxt {
+    height: 120px;
+    width: 40px;
+    font-family: Font;
+    z-index: 0;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-size: 20px;
+    user-select: none;
+}
+
+#ad {
+  position: fixed; /* Закрепляем относительно окна браузера */
+  bottom: 0;       /* Прижимаем к нижнему краю */
+  left: 50%;       /* Центрируем по горизонтали */
+  transform: translateX(-50%); /* Смещаем назад на 50% ширины блока */
+  height: 100px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent; /* Можно добавить фон если нужно */
+  z-index: 1000; /* Чтобы баннер был поверх других элементов */
+}
+
 }
