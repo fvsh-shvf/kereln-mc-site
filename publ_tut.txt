@@ -1,0 +1,7 @@
+cd C:\Users\User\Desktop\KerelnMC
+
+git add .
+
+git commit -m "pizda_pingvina"
+
+git push -u origin main

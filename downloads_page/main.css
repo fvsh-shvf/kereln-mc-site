@@ -184,9 +184,9 @@ img {
 #ver1122 {
   left: 20%;
   top: 52%;
-}
+} 
 
-#ver09beta1122 {
+#ver095beta1122 {
   width: 180px;
     height: 40px;
     position: absolute;
@@ -204,5 +204,26 @@ img {
     left: 27%;
     cursor: pointer;
     top: 59%;
+    user-select: none;
+}
+
+#ver09beta1122 {
+  width: 180px;
+    height: 40px;
+    position: absolute;
+    font-family: Font;
+    color: rgb(255, 255, 255);
+    background-color: rgb(101, 101, 101);
+    text-align: center;
+    z-index: 20;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 25px;
+    font-size: 15px;
+    left: 27%;
+    cursor: pointer;
+    top: 66%;
     user-select: none;
 }
